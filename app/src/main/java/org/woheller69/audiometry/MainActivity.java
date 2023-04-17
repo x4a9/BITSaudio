@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             startTest.setVisibility(View.VISIBLE);
             testResults.setVisibility(View.VISIBLE);
             startSingleTest.setVisibility(View.VISIBLE);
-            if (GithubStar.shouldShowStarDialog(this)) GithubStar.starDialog(this,"https://github.com/woheller69/audiometer");
+            if (GithubStar.shouldShowStarDialog(this)) GithubStar.starDialog(this,"https://github.com/x4a9/BITSaudio");
         } else {
             startTest.setVisibility(View.GONE);
             testResults.setVisibility(View.GONE);
